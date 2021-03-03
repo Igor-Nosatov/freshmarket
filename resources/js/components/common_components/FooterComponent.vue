@@ -48,7 +48,8 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-secondary" href="#">Все права защищены "Fresh
-                                Market"
+                                Market" <br>
+                                Demo App
                             </a>
                         </li>
                     </ul>
