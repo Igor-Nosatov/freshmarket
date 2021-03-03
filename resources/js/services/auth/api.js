@@ -3,7 +3,7 @@ import router from './../../routing/router';
 import auth from './auth';
 
 const api = {
-    apiUrl: `/api`,
+    apiUrl: `https://freshmarket.space/api`,
     post(path, body) {
         return axios.post(`${this.apiUrl}${path}`, body).catch(api.handleError);
     },

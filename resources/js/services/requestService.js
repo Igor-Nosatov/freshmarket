@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = '/api';
+const API_URL = 'https://freshmarket.space/api';
 const requestService = {
     get(url, params = {}, headers = {}) {
         return axios.get(API_URL + url, {
